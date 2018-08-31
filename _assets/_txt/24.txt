@@ -6,4 +6,4 @@ A slight variation (Fig. 9) in conventional rectifier circuits is found in the u
 
 10. The Full-Wave Bridge Rectifier
 
-The need for a centertapped power transformer is eliminated by the bridge rectifier, in which four diodes are used (Fig. 10). As illustrated, the input to the bridge circuit is applied to diag-
+The need for a center-tapped power transformer is eliminated by the bridge rectifier, in which four diodes are used (Fig. 10). As illustrated, the input to the bridge circuit is applied to diag-

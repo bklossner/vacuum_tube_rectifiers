@@ -6,4 +6,4 @@ While the circuits of crystal diode rectifiers are similar to those of vacuum di
 
 4. Triode Rectifiers
 
-Grid-controlled tubes, or triodes, are sometimes used as rectifiers. The use of the grid permits regulating the power delivered to the load by controlling the time during which the current ﬂows
+Grid-controlled tubes, or triodes, are sometimes used as rectifiers. The use of the grid permits regulating the power delivered to the load by controlling the time during which the current flows
