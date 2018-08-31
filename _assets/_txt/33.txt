@@ -1,9 +1,0 @@
-26 VACUUM TUBE RECTIFIERS
-
-the peak value (E) of the applied ac input voltage. In addition, half-wave rectifier V3 produces across C3 a voltage equal to the peak value (E) of the applied ac input voltage. The voltages across capacitors C2 and C3 are added in series, and the no-load dc output voltage is three times the peak input voltage. The voltage drops off rapidly when load current is drawn.
-
-16. Voltage-Quadrupler Circuit
-
-By combining two cascade voltage doublers in series, a voltage quadrupler circuit is obtained, as is illustrated in Fig. 15. Here two half-wave (cascade) doublers are fed from a common source (either a transformer or the ac line) so that their output voltages add in series. Note that the voltage across Cl equals the peak of the input voltage (E) while the voltage across C2 is equal to twice the peak voltage, or 2E. The voltage across C3 and C4 in series (or across the load) thus approaches four times the peak value of the ac supply voltage, when no load current is drawn.
-
-In theory, cascade voltage doublers may be added in series indefinitely to produce progressively higher output voltages. Since a voltage quadrupler will deliver a no-load DC output voltage of

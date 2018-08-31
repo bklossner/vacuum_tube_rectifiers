@@ -1,9 +1,0 @@
-are essentially the same circuits as those shown in Figs. 11 and 12 respectively, except that the transformer has been omitted.
-
-The two diodes have been combined in one envelope as duplex diodes. Representative types are the 2526 and the 11726-GT, which are designed to operate directly from the 117-volt ac line. In transformerless receivers, the heaters of all tubes are connected in series with a voltage-dropping resistor (R) connected across the line. Note that the DC load circuit of the full-wave doubler (Fig. 13 left) cannot be connected to ground or to one side of. the ac supply. This may cause hum because of the high ac voltage between the heaters and cathodes of the series-connected tubes. In addition, the full-wave doubler places the heater string at a positive potential of one-half the DC output voltage. This polarity of dc voltage between heater and cathode is in the worst direction for tube reliability and is not recommended by manufacturers. The half-wave doubler (Fig. 13, right) overcomes this difficulty by making the negative terminal common with one side of the ac line.
-
-15. Voltage-Tripler Circuit
-
-The cascade voltage doubler can be combined in series with a half-wave rectifier to provide a DC output voltage that is three times the peak of the ac input voltage. A cascade voltage tripler is shown in Fig. 14. The input voltage may be supplied from a transformer or directly from the ac supply line.
-
-Diodes V1 and V2 evidently comprise a half-wave voltage doubler which delivers an output voltage across C2 equal to 2E or twice

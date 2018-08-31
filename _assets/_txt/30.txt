@@ -1,7 +1,0 @@
-voltage across the capacitor-transformer combination (between point X and ground) fluctuates around its steady value of +E by the amount of the secondary voltage variations. On positive half-cycles the voltage at X becomes +2E [the capacitor voltage (+E) plus the peak ac voltage (+E)], while on negative half-cycles the secondary peak voltage (—E) subtracts from the capacitor voltage (+E), and the resultant voltage at point X becomes zero. This is shown by the lower waveform in Fig. 12.
-
-If diode V2 is now connected in the circuit, the voltage between point X and ground will tend to charge capacitor C2 to the peak voltage existing at point X, or 2E. This takes place during alternate half-cycles, when the top of the transformer secondary is positive and a current flows through diode V2 in the direction indicated by the solid arrows. During these cycles capacitor C2 charges up to twice the ac supply voltage across the transformer secondary or 2E. The circuit is a half-wave doubler because rectified current flows to the load only on alternate halves of the ac input cycle. The regulation of the half-wave doubler is even poorer than that of the full-wave type.
-
-14. Transformerless Voltage Doublers
-
-Two transformerless circuits, utilizing the half-wave and full-wave voltage doublers, are illustrated in Fig. 13, Note that these

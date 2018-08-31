@@ -1,9 +1,0 @@
-circuit (additional tube and transformer drops) reduces the available output voltage by another 25 volts, or to about 245 volts. This is still higher than the output voltage obtained for the half-wave rectifier circuit. Also, the current drain permissible for the full-wave circuit is far higher than that of the equivalent half-wave circuit.
-
-Advantages and Uses. Although we have neglected to mention it thus far, you may have noted in Fig. 7 that the individual tube currents of the full-wave rectifier ﬂow in opposite directions through the secondary winding of the power transformer. This avoids the dc magnetization and resultant saturation of the transformer core, one of the serious defects of the half-wave circuit. This advantage, combined with the high-efficiency high-permissible current drain, less ripple (at twice the ac frequency), and relatively high dc output voltage, makes the full-wave rectifier circuit suitable for a wide variety of applications in electronics. It is the standard circuit for low-power applications.
-
-A slight variation (Fig. 9) in conventional rectifier circuits is found in the use of rectifier tubes having an indirectly heated cathode. When using such a tube as the 6X5-GT, it is unnecessary to have a separate filament or heater winding. The heater of this tube is supplied directly from the same heater winding that feeds the other tubes in the associated circuitry.
-
-10. The Full-Wave Bridge Rectifier
-
-The need for a center-tapped power transformer is eliminated by the bridge rectifier, in which four diodes are used (Fig. 10). As illustrated, the input to the bridge circuit is applied to diag-
