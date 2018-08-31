@@ -1,0 +1,9 @@
+Three-Phase Delta-Star (Six-Phase Half-Wave) Rectifier
+
+The equivalent of six-phase operation from a three-phase supply can be attained by center-tapping the secondary winding of a three-phase transformer more easily than it can be achieved in the double-wye circuit. Refer to the single-phase, center-tapped transformer shown for the full-wave circuit in Chap. 2, Fig. 7. Such a star-connected secondary will have voltages of opposing polarities across each half of a winding with respect to center-tap, giving effectively a total of six phases (one for each leg of the star.) A typical three-phase delta-star rectifier circuit is shown in Fig. 19.
+
+Note that the delta-star circuit requires six half-wave rectifier tubes, one for each phase or secondary leg, just like the double-wye circuit. The output waveform is similar to that shown for the double-wye circuit (Fig. 18) and also has a ripple frequency equal to six times that of the ac supply.
+
+Because of the absence of the balance coil the limitations with respect to the peak and average currents do not apply to the delta-star circuit and the average DC load current of the latter turns out to be 0.955 times the value of the peak current per tube. The average output voltage is thus also 0.955 times the peak voltage, or 1.414 x 0.955 = 1.35 times the rms value (Es) of the secondary voltage across each leg. Equivalently, the rms voltage across each secondary leg must be 1/1.35 or 0.74 times the average desired dc output voltage.
+
+For example, if an output voltage of 300 volts at a load current of 10 amperes is desired in the circuit of Fig. 19, the ac rms voltage across each secondary leg (Es) must be 300 x 0.74 = 222 volts, and the peak current per tube is 10/0.955 or 10.5 amperes. The average current per tube is, of course, 10/6 or 1.67 amperes for each of the six tubes.
