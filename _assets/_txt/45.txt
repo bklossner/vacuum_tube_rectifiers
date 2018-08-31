@@ -1,6 +1,6 @@
 be only 1/2.34 or 0.428 times the value of the average desired dc output voltage.
 
-Example: The transformer secondary voltage per leg (Es) in a full-wave deltawye rectifier is 150 volts rms, the load current 2 amperes. What is the average DC output voltage, the peak and average current through each tube, and the average power delivered to the load?
+Example: The transformer secondary voltage per leg (Es) in a full-wave delta-wye rectifier is 150 volts rms, the load current 2 amperes. What is the average DC output voltage, the peak and average current through each tube, and the average power delivered to the load?
 
 Solution: Since the average DC output voltage is 2.34 times the rms voltage across each leg, the output voltage is 2.34 x 150 = 351 volts. The peak current through each tube is 1/0.955 or 1.05 times the average load current; the peak current is 1.05 x 2 = 2.10 amperes per tube. The average current per tube is one-third of the total, or 1 /3 x 2=0.667 ampere. Finally, the average power is the product of the average current and the output voltage, or 2 x 351 = 702 watts.
 
@@ -10,11 +10,11 @@ Polyphase rectifiers are used only when the efficiency of rectification is more 
 
 25. Review Questions
 
-(1) State some of the advantages of three-phase power systems over singlephase supplies.
+(1) State some of the advantages of three-phase power systems over single-phase supplies.
 
 (2) Draw the circuit and output waveform of a three-phase half-wave delta-wye rectifier and explain its operation.
 
-(3) What is the advantage of the delta-zig-zag connection over the deltawye circuit? Is there any difference in the output waveform of the circuit; in the average and peak currents; in the ripple frequency?
+(3) What is the advantage of the delta-zig-zag connection over the delta-wye circuit? Is there any difference in the output waveform of the circuit; in the average and peak currents; in the ripple frequency?
 
 (4) Why is the half-wave double-wye circuit sometimes called a six-phase rectifier? What is the ripple frequency of the output?
 

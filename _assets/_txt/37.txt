@@ -1,22 +1,7 @@
 19. Three-Phase Half-Wave Delta-Wye Rectifier
 
-The simplest of the three-phase rectifiers is the half-wave delta-wye
-circuit, shown in Fig. 16. The terms "delta" (∆) and· "wye" (Y)
-refer to the configuration of the primary and secondary coils,
-respectively, of the three-phase transformer.
+The simplest of the three-phase rectifiers is the half-wave delta-wye circuit, shown in Fig. 16. The terms "delta" (∆) and· "wye" (Y) refer to the configuration of the primary and secondary coils, respectively, of the three-phase transformer.
 
-Note in Fig. 16 that the three-phase line is connected to the
-junctions of three delta-connected primary coils, so that the full primary voltage (Ep) of each phase is developed across each coil.
-The three secondary coils of the transformer are mounted in the
-shape of a wye and a secondary voltage (Es) is developed across
-each coil or leg. These secondary voltages are 120° out of phase
-with each other; that is, the output sinewave of each coil is displaced
-in time by 120°, or one-third of a cycle, with respect to the
-sinewaves of the other two coils.
+Note in Fig. 16 that the three-phase line is connected to the junctions of three delta-connected primary coils, so that the full primary voltage (Ep) of each phase is developed across each coil. The three secondary coils of the transformer are mounted in the shape of a wye and a secondary voltage (Es) is developed across each coil or leg. These secondary voltages are 120° out of phase with each other; that is, the output sinewave of each coil is displaced in time by 120°, or one-third of a cycle, with respect to the sinewaves of the other two coils.
 
-The circuit shown in Fig. 16 consists essentially of three separate
-half-wave rectifiers, one for each leg of the secondary wye, or one
-for each phase. The operation of each half-wave rectifier is identical
-to that described for the single-phase half-wave rectifier, illustrated
-in Fig. 5 and 6. Each tube carries current only during the positive
-half-cycles of its phase, or only one-third of the time. The output
+The circuit shown in Fig. 16 consists essentially of three separate half-wave rectifiers, one for each leg of the secondary wye, or one for each phase. The operation of each half-wave rectifier is identical to that described for the single-phase half-wave rectifier, illustrated in Fig. 5 and 6. Each tube carries current only during the positive half-cycles of its phase, or only one-third of the time. The output
