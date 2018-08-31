@@ -1,7 +1,0 @@
-voltage, therefore, prefers the shunt path through C1 to minus (and ground), while the DC is forced through resistor (R) and develops a voltage drop across it. Most of the remaining ripple voltage at the filter output is shunted to ground through the low-impedance path offered by capacitor (C2), while the filtered rectifier voltage is available at the output terminals. The value of the filtered DC output voltage is substantially the rectifier output voltage developed across capacitor (C1) minus the voltage drop developed across series resistor R.
-
-Amount of Filtering. In practical R-C filters, the reactance of the shunting capacitors is always made small compared with the series resistance. Under this condition, each section of an R-C filter reduces the ripple voltage applied to its input by the following (approximate) ratio:
-
-When several filter sections are connected in series (cascade), the total reduction factor is approximately equal to the product of the voltage reduction factors of the individual sections. In polyphase rectifiers, where the ripple frequency (f) is high, a single R-C section is usually adequate.
-
-Example: Compute the ripple voltage reduction factor of the R-C filter shown in Fig. 25, for a 60-cycle single-phase, full-wave rectifier.

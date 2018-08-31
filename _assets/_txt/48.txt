@@ -1,9 +1,0 @@
-known as filters. Filter circuits generally consist of capacitors, inductors, and sometimes resistors. The capacitors are always connected in parallel with the load, while the inductors or resistors are connected in series with the load.
-
-27. Capacitance Filter
-
-Consider first the action of a shunt capacitor across the load and rectifier output (Fig. 21). This is the simplest possible type of filter.
-
-It will be remembered that a capacitor opposes any change in voltage across its terminals (the load, in this case) by storing up energy in its electrostatic field whenever the voltage tends to rise, and converting this stored energy back into current flow whenever the voltage across its terminals tends to fall. Some of the energy of the rectifier output pulses is stored in the field of a capacitor, and the capacitor discharges between the rectifier current pulses, considerably reducing the fluctuations in the output voltage (ripple).
-
-Figure 21 shows the action of the capacitor filter when either half-wave or full-wave rectifier output voltages are applied to the filter. In either case the capacitor charges up to the peak voltage of the rectifier output during the time that current pulses are delivered to the filter and load. When the rectifier output drops off to zero, the capacitor cannot discharge instantaneously; its voltage falls off slowly as it discharges through the load. During the next rectifier current pulse, the capacitor is charged again to the peak voltage, and the cycle is repeated. The only difference
