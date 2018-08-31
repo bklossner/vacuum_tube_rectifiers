@@ -1,0 +1,96 @@
+Chapter 5
+
+RECTIFIER AND FILTER DESIGN DATA
+
+35. Rectifier Tube Characteristics
+
+The choice of a rectifier tube is restricted to two major commercially available categories; high-vacuum thermionic types and hot cathode gas-filled types. High-vacuum rectifiers, available as half-wave or full-wave diodes, are used primarily for low power applications at plate voltages up to about 500 volts and load currents not exceeding a few hundred milliamperes. Because of their high peak voltages, high-vacuum diodes are also employed in applications requiring very high DC voltages at extremely small currents, such as for cathode-ray tube accelerating potentials. The hot-cathode gas diodes, ordinarily mercury-vapor types, find their chief application in industry and in transmitting stations, where high DC plate powers are required. Mercury-vapor tubes have low tube voltage drops (about 10 to 15 volts) compared to high-vacuum types, but must be preheated and protected from even momentary overloads. Because of the possibility of arcback, the peak inverse voltage of mercury-vapor tubes is critical, and dependent to some extent on the tube's ambient temperature. (See Chap. 1.)
+
+The most important design ratings of representative commercial rectifier tubes are listed in Table III. The significance of these ratings is explained in Chap. I. For full-wave types (two diodes in one envelope) the maximum plate currents listed apply to the plate of one diode only.
+
+36. Rectifier Circuit Design Data
+
+Table 1 summarizes the main characteristic and design factors of the various rectifier circuits discussed in Chaps. 2 and 3. The significance of these factors has been described in detail in Chaps. 2 and 3, but it may be well to explain the derivation and use of the table, and in the process recapitulate the meaning of the various design factors.
+
+All numerical factors in Table 1 are ratios based on a DC output voltage of l volt, or a DC output of I amp. In the case of the secondary ac voltages and currents, the numbers express the ratio of the rms value of the voltage or current to the DC output voltage or current. The average current per tube expresses the fraction contributed by each tube to the total DC output (taken as I). The value of the peak current per tube expresses the ratio of the peak value of the output current waveform to its average or DC value, taken as I. This is the inverse of the average-to-peak current (or voltage) ratio, previously stated in Chaps. 2 and 3 for various circuits. For example, it was stated that the average current of single-phase, full-wave rectifier is 0.636 times the peak current. In Table I the inverse ratio (peak current to average current) is listed as 1.57, which evidently is 1/0.636. Note, however, that the peak-to-average ratios assume that nothing is done to change the output current waveform of the rectifier. In other words, the rectifier must be connected directly to a pure resistance load, so that the full ripple in the output waveform is present. If the rectifier is connected to a filter, the output waveform is changed by suppression of the ripple and the average current or voltage values begin to approach the peak values. The values listed in Table 1 do not apply to filter operation. In the case of an "ideal" choke-input filter (with infinite input inductance), for example, the current ripple is entirely suppressed and the average DC load current becomes equal to the peak current per plate. (The exception is the double-wye, three-phase circuit, where the peak current per-tube must be held to one-half of the average DC current, as explained in Chap. 3).
+
+Table 1 also lists the rms ripple voltage as a percentage of the de output voltage. These values were obtained by taking the root-mean-square value of the sum of the fundamental and harmonic ripple voltage amplitudes. The values stated represent the combined effect of all ripple components present in the rectifier output. This is useful for filter calculations.
+
+The values listed in Table I for the secondary winding voltages and currents (Es and Is, respectively) assume that no voltage is lost in the transformer windings and across the tubes. To obtain actual values for the required secondary voltages and currents in a specific circuit, the voltage drop across the transformer secondary windings and the tube voltage drops must be added to the value obtained from Table I. Manufacturer's component data and tube manuals may be consulted to obtain the tube and transformer drops.
+
+The kva (kilovolt-amperes) values listed in Table I for the transformer primary permit estimating current-handling requirements of the transformer and its required kva rating. Note the excessive kva rating for the single-phase, half-wave circuit; this is caused by the DC saturation of the unbalanced rectified current flowing through the transformer secondary, as was explained in Chap. 2. The kva rating represents the input power including the reactive component. To obtain the true input power the kva value must be multiplied by the power factor of the circuit. Both the kva and the power factor listing assume that there are no losses in the transformer. To obtain true values these losses must be added to the listed values.
+
+As is apparent from Table I, the relation between the peak inverse voltage per tube and the DC output voltage depends on the rectifier circuit. The listings represent minimum values calculated for sinewave conditions. Because of the presence of line surges and other transients a safety factor should be allowed for the peak inverse voltage per tube. Tubes should be selected (from Table II) whose peak inverse voltage rating exceeds the required values listed in Table I for the particular circuit used.
+
+The proper use of Table I will become evident through the examples of rectifier calculations, worked out later on in the chapter. For complete rectifier-filter circuit design all the tables in this chapter must be used in conjunction with each other.
+
+37. Filter Design Data
+
+Some of the critical design factors determining filter operation have been discussed in Chap. 4 and formulas have been given for computing the reduction in ripple voltage for different filter sections. These various factors and relations are summarized in the filter design chart of Table II, which gives the minimum inductance for choke-input filters and the L-C product values for both choke-input and capacitor-input filters.
+
+Note that Table II gives L-C values for both 50-cycle and 60- cycle supply sources. The 50-cycle ac supplies are common in many countries. The horizontal axis at the bottom of the chart lists the rms ripple voltage (of both fundamental and harmonic components) as a percentage of the DC output voltage. The horizontal scale at the top of the chart gives the ripple voltage in db (decibels) with reference to the DC output voltage. Decibels are frequently used to express a relative voltage ratio and the db values may be found from the relation db = 20 Iog10 Eif E0 , where EifE 0 is the voltage ratio to be expressed in db.
+
+For example, the value of 10% ripple in the chart corresponds to -20 db, since for a voltage ratio EifE 0 of 0.1 (10%),
+
+Similarly, for a ripple of 0.5%, the voltage ratio E1/E0 is 0.005 or I /200, and hence
+
+The chart, therefore, shows a value of -46 db corresponding to a ripple of 0.5%. Negative db values are usually spoken of as being so many below the reference voltage. Thus a ripple of 0.5% is referred to as being 46 db below the DC output voltage.
+
+Choke-Input Design Procedure. To design a choke-input filter by means of the chart, assume a plausible minimum value for the input inductance. Then determine from the manufacturer's tube manuals or by calculation, the actual value of the DC output voltage into this input inductance for the particular circuit and desired operating values. A check with the minimum-inductance formula L = KE/If* will then reveal whether the assumed inductance value is adequate, or possibly even excessive. If the load current requirements of the circuit vary over a range, the minimum load current (or bleeder current) should be substituted for I in the minimum inductance formula. Finally, the L-C product for the desired ripple reduction and circuit is determined from the chart, and the value of the shunt capacitance is computed by dividing it into the L-C product. Depending on requirements, a different order may be followed in the procedure.
+
+*Note that E in this case is the DC output voltage, not fundamental component of ripple voltage as shown in the equation on page 46.
+
+Capacitor-Input Design Procedure. For a capacitor-input filter, it is advisable to determine first the required value of the input (shunt) capacitor for the desired rectifier output voltage. This information is usually given in manufacturers' tube manuals, or it may be calculated. The L-C product for the desired minimum ripple voltage is then determined from the chart for the circuit and supply frequency used. Finally, the value of the series inductance is determined by dividing the L-C product by the value of the shunt capacitance (C). If several filter sections are needed, the L-C product is ascertained from the proper curve in the chart. The same values are used for the series inductance and shunt capacitance of each section.
+
+R-C Filters. A simple formula .has been given in Chap. 4 for determining the ripple reduction factor of an R-C filter in terms of the component values (R and C) and the ripple frequency (f). This formula is easy to use for one or more R-C sections and makes it unnecessary to provide an additional design chart for R-C filters.
+
+38. Typical Rectifier-Filter Calculations
+
+The two examples below illustrate the procedures to be followed for designing rectifier-.filter systems, using the design data provided in this chapter and manufacturer's tube data.
+
+Example 1: A single-phase, 60-cycle, full-wave rectifier is required to. supply to the filter and load a DC output voltage of 430 volts at a load current of 225 ma, and should have a ripple not exceeding 1%. Choose tubes, filter, and component values.
+
+Solution: (Refer to Fig. 30.) From Table I, the peak inverse voltage on the rectifier tube will be 3.14 x 430 = 1,350 volts, and the peak plate current is 1.57 x 225 = 354 ma.
+
+From Table III it is apparent that a 5U4-G full-wave rectifier tube will easily and economically meet these requirements.
+
+Referring to the manufacturer's receiving tube manual, it is seen that either a choke-input or capacitor-input filter will be able to supply the required DC output voltage and current, but a choke-input filter. will necessitate a plate-to-plate transformer secondary voltage of l 100 volts (550 volts each leg), while the capacitor-input filter requires only 900 volts secondary plate-to-plate voltage. A capacitor-input filter will thus permit the use of a less expensive power transformer, although its voltage regulation will be poorer than that of the choke-input type. Choosing a capacitor-input filter for economy, we see from the tube manual that an input capacitor of 10 microfarads will give a DC output voltage of 430 volts into the filter at the desired load current of 225 ma (112.5 ma per plate). The tube manual also states that the regulation from half load to full load (112.5 ma to 225 ma) is 80 volts.
+
+To design the filter, refer to Table II, which gives for one section an L-C product of about 83 for a ripple voltage of 11% of the output (or 4.3 volts ac). Since the input capacitor is 10 microfarads; the minimum series inductance of the section should be 83 / 10 or 8.3 henrys. A practical value of 9 henrys will be more than sufficient. Allowing about a 25-volt drop in the choke, the output voltage from the filter will be 405 volts at full load.
+
+A bleeder resistor drawing about IO% of the load, or about 20 ma, should be connected across the filter output. By Ohms Law its resistance should be 430/.02 = 21,500 ohms and its wattage rating must be more than 430 x .02 = 8.6 watts. For safety, a rating of 15 to 20 watts should be selected.
+
+The DC output power of the rectifier is the product of output voltage and full load current or 430 x 0.225 = 97 watts (approximately). Adding about 15% or 15 watts to take care of bleeder requirements, tube and transformer drops, the total DC power is about 112 watts. The kva rating from Table I is 1.1 I times the de output power or 1.11 x 1112 = 125 kilovolt-amperes. In practice, a transformer with a rating of about 135 to 150 kva should be chosen.
+
+Example 2: It is desired to design a 60-cycle, three-phase, half-wave rectifier filter circuit capable of delivering a DC output of 3,500 volts at 3 amperes maximum load current, and with a ripple not exceeding 0.5% of the output voltage.
+
+Solution: (Refer to Figure 31.) Reference to Table I shows that the peak inverse voltage that each rectifier tube must withstand is 3,500 x 2.09 = 7,320 volts and the peak plate current per tube is 3 x l.21 = 3.63 amperes; the average plate current is 3 x 0.333 = 1 ampere each tube. Inspection of Table III reveals that the lowest-power tube capable of meeting these requirements is the type 872-A, half-wave mercury-vapor tube. For a three-phase, half-wave rectifier three 872-A's will be needed.
+
+Neglecting the DC resistance of the filter choke, each secondary leg of the power transformer must develop an rms voltage of 3,500 x 0.855 = 3000 volts (see Table I) and provide a secondary current of 3 x 0.58 = 1.74 amperes. Plus 10% for tube, transformer and filter drops, the secondary voltage per leg should be about 3,300 volts. Since the output power is 3,500 x 3 = 10.5 kw, the kva rating of the transformer primary (from Table I) should be 10.5 x 1.2 = 12. 7 kva. Adding again 10% to compensate for losses, the transformer should be rated at 14 kva. In addition, a filament winding must be provided, rated at 5 volts, 22.5 amperes, to supply the 5-volt, 7.5-ampere filaments of the three rectifier tubes.
+
+A choke-input filter must be used, since this is the only type applicable to polyphase circuits. Assuming a minimum load current (bleeder or voltage divider) of 10% of the total, (0.3 ampere), the minimum input inductance (from Table II) becomes
+
+A choke rated 3 henrys at full load should prove adequate. For a permissible ripple of 0.5% of the output, the chart (Table II)
+gives an L-C product of about 30 for the three-phase, half-wave circuit. The value of the shunt capacitor, therefore, is
+
+The value of the bleeder resistor (if one is provided) to draw 10% of the load current, or 0.3 ampere, should be 3,500/0.3 = 11,667 ohms and its wattage rating must exceed 3,500 x 0.3 = 1050 watts. (The high power rating will probably make it uneconomical to use a bleeder.)
+
+39. Review Questions
+
+(1) What is the chief application of high-vacuum rectifier tubes and at what power level would you begin to use mercury-vapor tubes. What are the relative advantages and disadvantages?
+
+(2) Explain the significance of the rectifier design data in Table I. Why are the transformer requirements for a single-phase, half-wave circuit excessively high?
+
+(3) Describe the effect of resistive, capacitive, and inductive loading of the rectifier output on the ratio of peak to average current per tube.
+
+(4) What allowance should be made, when using Table I, for voltage drops lost in tubes, transformer windings, filter, etc.
+
+(5) How would you obtain the true power rating of a transformer from its kva rating in a specific circuit, using Table I?
+
+(6) Explain the normal design procedure for a choke-input filter, using Table II. What current would you use to compute the minimum input inductance of the choke?
+
+(7) Design a capacitor-input filter, using Table II, that will give a ripple of O.1% with a three-phase, 60-cycle, full-wave circuit. If the shunt capacitance is 5 microfarads, what should be the value of the inductance? Express the ripple in db.
+
+(8) Design a single-phase, half-wave rectifier (60 cycles) that will give 250 volts DC output at a load of 125 ma. Choose a filter, select tubes, and state all component values, including a bleeder resistor.
+
+(9) Design a 60-cycle, three-phase, full-wave (delta-wye) rectifier-filter system with a choke-input filter providing an output of 8,000 volts DC at 5 amperes load current. The ripple voltage should not exceed 0.04% of the DC output voltage.
