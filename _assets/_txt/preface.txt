@@ -1,4 +1,4 @@
-PREFACE
+Preface
 
 A large proportion of electronic equipment operates from an alternating current supply. Most of the circuits within such equipment require direct current and/or voltages for best results. An integral part of the design, therefore, often consists of a vacuum tube rectifier and its associated components. The function of the rectifier is to convert a portion of the alternating voltage input into the direct current sources required for the particular apparatus. When the requirements of the electronic equipment are critical, the rectifying system must be designed and protected against undesired fluctuations of voltage.
 
