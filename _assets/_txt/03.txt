@@ -1,0 +1,32 @@
+ELECTRONICT ECHNOLOGY SERIES
+GROUP l: ELECTRICAL BASES GROUP 4: OSCILLATORS AND
+FOR ELECTRONICS PROPAGATION
+Electrostatics* L-C Oscillators
+D-C Circuit Analysis* Crystal Oscillators
+A-C Circuit Analysis* Multivibrators
+Magnetism* Blocking Oscillators
+Resonant Circuits R-F Transmission Lines
+R-C/R-L Time Constant Wave Propagation
+GROUP 2: BASIC ELECTRONICS GROUP 5: COMMUNICATION
+Vacuum Tube Rectifiers
+ELECTRONICS
+Vacuum Tube Constants Amplitude Modulation
+Impedance Matching* A-M Detectors
+Gas Tubes* Superheterodyne
+Limiters & Clippers Converters & 1-F
+Transistor Funda- Amplifiers
+mentals* Frequency Modulation
+FM Limiters & Detectors
+Antennas
+GROUP 3: AMPLIFICATION GROUP 6: ELECTRONIC ENGi-
+Audio Amplifiers*
+NEERING FUNDAR-
+F Amplifiers*
+MENTALS
+Magnetic Amplifiers* Microwave Tubes*
+Video Amplifiers* Electron Optics*
+Grid Bias & Coupling Waveguides*
+Systems* Television Engineering*
+Inverse Feedback Radar Systems*
+Computers*
+• In Preparation

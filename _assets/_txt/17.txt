@@ -1,0 +1,11 @@
+Chapter 2
+
+SINGLE-PHASE RECTIFIERS
+
+8. The Half-Wave Rectifier
+
+A single diode is known as a half-wave rectifier since it permits current to pass only during the positive half-cycle of an applied ac voltage. A half-wave rectifier circuit with its input and output waveforms is shown in Fig. 5. An ac input voltage, usually derived from a power transformer, is applied in series with the diode rectifier and a load resistance. Plate current (Ib) ﬂows through the tube and load every other half-cycle during positive alternations of the input voltage, and is blocked during the negative half-cycles. Although unidirectional, the load current is not dc because of its pulsations in amplitude. It can be shown mathematically that these pulsations contain both a dc component and an ac component, known as ripple. The current can be converted into a steady dc by filtering out the ac ripple with suitable smoothing filters. (See Chap. 4.)
+
+It is evident from Fig. 5 that during the time that plate current ﬂows, its instantaneous magnitude follows exactly the changes in the applied voltage. The shape of the plate-current waveform, therefore, is an exact replica of the ac input voltage waveform during positive half-cycles. The plate current develops a dc output voltage across the load resistance as it flows through it. The waveform (not shown) is exactly the same as that of the ac input voltage, except that only the positive half-cycles are reproduced. Since one-half of the input voltage is lost, the efficiency of the half-wave rectifier is low.
+
+When the plate-current waveform of the half-wave rectifier (Fig. 5) is averaged out over one complete cycle, it is found that the average current ﬂowing through the tube is only 0.318 times

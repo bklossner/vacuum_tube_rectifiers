@@ -1,0 +1,9 @@
+Capacitor-Input Design Procedure. For a capacitor-input filter, it is advisable to determine first the required value of the input (shunt) capacitor for the desired rectifier output voltage. This information is usually given in manufacturers' tube manuals, or it may be calculated. The L-C product for the desired minimum ripple voltage is then determined from the chart for the circuit and supply frequency used. Finally, the value of the series inductance is determined by dividing the L-C product by the value of the shunt capacitance (C). If several filter sections are needed, the L-C product is ascertained from the proper curve in the chart. The same values are used for the series inductance and shunt capacitance of each section.
+
+R-C Filters. A simple formula .has been given in Chap. 4 for determining the ripple reduction factor of an R-C filter in terms of the component values (R and C) and the ripple frequency (f). This formula is easy to use for one or more R-C sections and makes it unnecessary to provide an additional design chart for R-C filters.
+
+38. Typical Rectifier-Filter Calculations
+
+The two examples below illustrate the procedures to be followed for designing rectifier-.filter systems, using the design data provided in this chapter and manufacturer's tube data.
+
+Example 1: A single-phase, 60-cycle, full-wave rectifier is required to. supply to the filter and load a DC output voltage of 430 volts at a load current of 225 ma, and should have a ripple not exceeding 1%. Choose tubes, filter, and component values.

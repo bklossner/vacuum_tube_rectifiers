@@ -1,0 +1,29 @@
+TABLE I: RECTIFIER CIRCUIT DESIGN DATA
+Half-wave
+Half- Half-wave 6 phase Double Full-wave
+Half- Full- Full-wave wave 3 phase or Y inter- 3 phase
+wave wave bridge 3 phase Zig- 3 phase phase bridge
+:0
+I phase I phcue I phase (delta-wye) zag delta-star 3 phase (delta-wye) m n
+Tubes needed . I 2 4 3 3 6 6 6 :::!
+Reference Fig. No .. 3 5 6 12 13 15 14 16 :!!
+m
+:0
+Transformer loading values l> z
+leg voltage 1:7
+f, (RMS) (Secondary Voltage) ... 2.22 I.II 1.11 0.855 0.855 0.74 0.855 0.43 'Tl ;::
+I, (RMS) (Secondary Current) 1.42 0.707 1.0 0.58 0.58 0.41 0.29 0.816 -I m
+Trans. (PRI) KVA .. 3.49 1.11 1.11 1.21 1.21 1.28 1.05 1.05 :0
+line power factor . 0.29 0.90 0.90 0.83 0.83 0.955 0.955 0.955 1:7
+m
+!:!?
+Tube loading values (resistance load) c:, z
+Peak inverse voltage on tube .. 3.14 3.14 1.57 2.09 2.09 2.09 2.09 1.05 1:7
+Current per tube (avg.) 1.0 0.5 0.50 0.33 0.33 0.167 0.167 0.33 l>
+-I
+Current per tube (peak) 3.14 1.57 1.57 1.21 1.21 1.05 0.50 1.05 l>
+(DC load current=l.0)
+D-C output voltage characteristics
+Ripple frequency predominating . 1f 2f 2f 3f 3f 6f 6f 6f
+RMS Ripple voltage, per cent of DC output voltage 111. 48.3 48.3 18.3 18.3 4.2 4.2 4.2 '11
+,0

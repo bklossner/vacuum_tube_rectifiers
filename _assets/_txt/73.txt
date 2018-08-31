@@ -1,0 +1,27 @@
+Solution: (Refer to Figure 31.) Reference to Table I shows that the peak
+inverse voltage that each rectifier tube must withstanp is 3,500 x
+2.09 = 7,320 volts and the peak plate current per tube is 3 x l.21 = 3.63 amperes; the average plate current is 3 x 0.333 = 1 ampere
+each tube. Inspection of Table III reveals that the lowest-power
+tube capable of meeting these requirements is the type 872-A,
+half-wave mercury-vapor tube. For a three-phase, half-wave rectifier
+three 872-A's will be needed.
+
+Neglecting the DC resistance of the filter choke, each secondary
+leg of the power transformer must develop an rms voltage of 3,500
+x 0.855 = 3000 volts (see Table I) and provide a secondary current
+of 3 x 0.58 = 1.74 amperes. Plus 10% for tube, transformer and
+filter drops, the secondary voltage per leg should be about 3,300
+volts. Since the output power is 3,500 x 3 = 10.5 kw, the kva rating
+of the transformer primary (from Table I) should be 10.5 x 1.2
+= 12. 7 kva. Adding again 10% to compensate for losses, the
+transformer should be rated at 14 kva. In addition, a filament
+winding must be provided, rated at 5 volts, 22.5 amperes, to supply
+the 5-volt, 7.5-ampere filaments of the three rectifier tubes.
+
+A choke-input filter must be used, since this is the only type
+applicable to polyphase circuits. Assuming a minimum load current
+(bleeder or voltage divider) of 10% of the total, (0.3 ampere),
+the minimum input inductance (from Table II) becomes
+
+A choke rated 3 henrys at full load should prove adequate. For
+a permissible ripple of 0.5% of the output, the chart (Table II)

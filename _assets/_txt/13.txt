@@ -1,0 +1,9 @@
+When a voltage of opposite polarity (reverse bias) is applied to the crystal diode, a small reverse current (15) flows. This reverse current is merely a few microamperes as long as the reverse bias is not made too high. The corresponding back resistance (Rb) varies from about 100 kilohms to several megohms. When the reverse voltage is made very high a breakdown occurs and the reverse current suddenly increases to relatively large values.
+
+This is shown in Fig. 4, where for the purposes of clarity the magnitude of the reverse current has been greatly exaggerated. When the excessive negative voltage is removed, conditions return to normal.
+
+While the circuits of crystal diode rectifiers are similar to those of vacuum diodes, a considerable number of changes must be made in practice to take care of different voltage and current requirements.
+
+4. Triode Rectifiers
+
+Grid-controlled tubes, or triodes, are sometimes used as rectifiers. The use of the grid permits regulating the power delivered to the load by controlling the time during which the current ﬂows

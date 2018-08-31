@@ -1,0 +1,13 @@
+potential. An analysis of Fig. 10 shows that the cathodes of V2 and V4 are at the same voltage, since they are connected together, but the cathodes of V1 and V3 are at different potentials, both with respect to each other and also to the cathode of V2 or V4. The bridge circuit requires three separate filament transformers (or secondary windings) which must be well insulated from each other and from the ground connection. This makes use of the circuit a rarely exercised luxury. This is true in tubes with directly heated cathodes, but the obstacle is overcome in tubes with indirectly heated cathodes such as used with the 6X4.
+
+The last disadvantage cited does not apply to diodes not requiring cathode heating power, such as metallic-oxide rectifiers and crystal diodes. The bridge circuit is therefore widely used with selenium, copper-oxide, and crystal rectifiers.
+
+11. Voltage-Multiplying Circuits
+
+Diode rectifiers can be made to deliver dc voltages that are twice or several times the peak amplitude of the alternating voltage supplied to the tubes. This is generally done by charging capacitors (through rectifiers on alternate ac half-cycles) with polarities that cause the dc voltages developed to add in series. Voltage multipliers are especially useful in high—voltage circuits where it is inconvenient to employ a transformer with a sufficiently high secondary voltage, and in transformerless receiver circuits operated directly from the ll7-volt ac source. The following paragraphs describe several circuits frequently used for such purposes.
+
+12. Full-Wave Voltage Doubler
+
+The full-wave voltage doubler shown in Fig. 11 is capable of delivering a dc output voltage that is twice the peak voltage of the applied alternating voltage. Basically, the circuit is so arranged that the output voltages of the two half-wave rectifiers (V1 and V2) are in series. It is a full-wave doubler because the rectifier tubes pass current to the load on each half of the input ac cycle.
+
+The action of the full-wave doubler is as follows. When the top of the transformer secondary winding is instantaneously positive [during positive half-cycle (A)], diode VI passes a current in the direction of the solid arrows, which charges up capacitor C1 so that its upper plate becomes positive. (You can see that the upper plate becomes positively charged since electrons ﬂow out from
