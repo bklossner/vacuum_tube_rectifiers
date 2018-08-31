@@ -1,0 +1,11 @@
+Tuned (Resonant) Filters
+
+By using a resonant circuit as a filter, a particular ripple frequency may be effectively suppressed. As shown in Figs. 28 and 29, either a series-resonant circuit in parallel with the load or a parallel-resonant circuit in series with the load, may be used to suppress the ripple.
+
+In the series-resonant filter circuit (Fig. 28) the reactance of the coil and that of the capacitor cancel out at the resonant (ripple) frequency and the opposition to the ripple voltage is thus only the series resistance of the tuned circuit, which is essentially the coil winding resistance. The filter, therefore, acts as a short circuit across the load for the ripple frequency to which it is tuned, while presenting almost infinite impedance to the DC output voltage. In contrast, the parallel-resonant filter (Fig. 29) presents a very high impedance (Q times the impedance of the coil) to the ripple frequency to which it is tuned, while at the same time presenting only the coil resistance to the flow of direct current. It effectively blocks the passage of the ripple current to the load. Small ripple currents that do get through are further by-passed to ground by shunt capacitors C' and C".
+
+Since the resonant frequency (f) of either tuned circuit is approximately 1/2π sqrt LC, the product of inductance and capacitance for a resonant filter must satisfy the relation
+
+In the parallel-resonant filter (Fig. 29), the minimum inductance of the choke coil is usually determined by the previously discussed considerations for a capacitor-input filter, so that the value of the capacitance (C) is also fixed.
+
+The disadvantage of resonant filters is that they can suppress only one of the several ripple frequency components present in the output of the rectifier. If they are correctly tuned to the fundamental ripple frequency, they will not effectively suppress the other ripple frequency components, and additional filters must be used. Also, the individual tuning of each resonant circuit is a bothersome procedure. For these reasons tuned filter circuits are seldom used in rectifier power supplies, although they find considerable application in other types of electronic circuits.
