@@ -1,7 +1,0 @@
-half of the time when the circuit is open during negative half-cycles. Practical rectifiers do not attain this goal, but come close to it. Some vacuum tube rectifiers may have almost infinite resistance during the nonconducting interval (back resistance), but the resistance during the conducting interval (forward resistance) is never zero or even constant. Regardless of their approach to the ideal, all rectifiers must provide a one-way path for electric current; that is, conduction must take place primarily in one direction only. This is called unilateral conduction, or a unidirectional characteristic.
-
-3. The Diode as Rectifier
-
-A diode is a device consisting of two elements or electrodes: one is an electron emitter (cathode), the other an electron collector (anode or plate). Since electrons in a diode can ﬂow only from emitter to collector, the diode provides unilateral conduction and hence, rectification. The voltage-current characteristics of an ideal diode and of three practical diodes are illustrated in Figs. 1 through 4.
-
-Ideal Diode. For comparison, Fig. 1 illustrates the characteristic of an ideal diode. It acts like the synchronous switch discussed above. When the voltage (Eb) at the electron collector is negative, the back resistance (Rb) of the device is infinite and no current (Ib) can ﬂow. When E, is positive, however, the device conducts, the forward resistance (Rf) is zero and the current (Ib) is effectively infinite. In
