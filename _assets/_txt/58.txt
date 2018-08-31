@@ -1,32 +1,7 @@
-rectifier output voltage of a particular circuit for various loads and
-filter component values. Such curves are frequently presented in
-manufacturer's tube manuals, or the information for them may
-be listed in tabular form under "typical operating conditions."
+rectifier output voltage of a particular circuit for various loads and filter component values. Such curves are frequently presented in manufacturer's tube manuals, or the information for them may be listed in tabular form under "typical operating conditions."
 
-L-C Filter Design. Figure 27 shows typical examples of chokeinput
-and capacitor-input filters of one or more sections which are
-placed between the rectifier output and the load to obtain substantially
-pure DC.
+L-C Filter Design. Figure 27 shows typical examples of choke-input and capacitor-input filters of one or more sections which are placed between the rectifier output and the load to obtain substantially pure DC.
 
-Note in Fig. 27 that for design purposes each filter section is
-considered to be made up of a series inductance (choke coil) and
-a shunt capacitor. The input inductance of a choke-input filter is
-part of the first filter section, but the shunt capacitance (C) of a
-capacitor-input filter is included not as part of the first filter
-section, but as an integral part of the rectifier output. With the
-input capacitor considered as part of the rectifier, the filter sections
-of choke-input and capacitor-input circuits become identical. Then
-rectifier output and ripple voltage that feeds into the series inductance
-of a choke-input filter or into the shunt capacitance of a
-capacitor-input filter must be determined. Now it is possible to compute
-the reduction in the ripple voltage in the same way for both
-types of filters. As stated before, the rectifier tube output voltages
-(for typical operating conditions) into either an input inductance
-or a shunt capacitor are listed in manufacturers• tube manuals.
+Note in Fig. 27 that for design purposes each filter section is considered to be made up of a series inductance (choke coil) and a shunt capacitor. The input inductance of a choke-input filter is part of the first filter section, but the shunt capacitance (C) of a capacitor-input filter is included not as part of the first filter section, but as an integral part of the rectifier output. With the input capacitor considered as part of the rectifier, the filter sections of choke-input and capacitor-input circuits become identical. Then rectifier output and ripple voltage that feeds into the series inductance of a choke-input filter or into the shunt capacitance of a capacitor-input filter must be determined. Now it is possible to compute the reduction in the ripple voltage in the same way for both types of filters. As stated before, the rectifier tube output voltages (for typical operating conditions) into either an input inductance or a shunt capacitor are listed in manufacturers• tube manuals.
 
-When the reactance of the shunt capacitance of an L-C filter
-section is small at the lowest ripple frequency compared to the
-load resistance (or the reactance of th( inductor that follows),
-which is always the case in practical filters, the reduction is the
-ripple voltage for a single section may be computed from the
-following approximate relation:
+When the reactance of the shunt capacitance of an L-C filter section is small at the lowest ripple frequency compared to the load resistance (or the reactance of th( inductor that follows), which is always the case in practical filters, the reduction is the ripple voltage for a single section may be computed from the following approximate relation:

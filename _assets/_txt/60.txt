@@ -1,24 +1,7 @@
-In the next chapter a number of curves will be presented from
-which the reduction factor for L-C filters with various rectifier
-circuits can be determined without elaborate computation.
+In the next chapter a number of curves will be presented from which the reduction factor for L-C filters with various rectifier circuits can be determined without elaborate computation.
 
 33. Tuned (Resonant) Filters
-By using a resonant circuit as a filter, a particular ripple frequency
-may be effectively suppressed. As shown in Figs. 28 and 29,
-either a series-resonant circuit in parallel with the load or a
-parallel-resonant circuit in series with the load, may be used to
-suppress the ripple.
 
-In the series-resonant filter circuit (Fig. 28) the reactance of
-the coil and that of the capacitor cancel out at the resonant (ripple) frequency and the opposition to the ripple voltage is thus only
-the series resistance of the tuned circuit, which is essentially the
-coil winding resistance. The filter, therefore, acts as a short circuit
-across the load for the ripple frequency to which it is tuned,
-while presenting almost infinite impedance to the DC output voltage.
-In contrast, the parallel-resonant filter (Fig. 29) presents a very
-high impedance (Q times the impedance of the coil) to the ripple
-frequency to which it is tuned, while at the same time presenting
-only the coil resistance to the flow of direct current. It effectively
-blocks the passage of the ripple current to the load. Small ripple
-currents that do get through are further by-passed to ground by
-shunt capacitors C' and C".
+By using a resonant circuit as a filter, a particular ripple frequency may be effectively suppressed. As shown in Figs. 28 and 29, either a series-resonant circuit in parallel with the load or a parallel-resonant circuit in series with the load, may be used to suppress the ripple.
+
+In the series-resonant filter circuit (Fig. 28) the reactance of the coil and that of the capacitor cancel out at the resonant (ripple) frequency and the opposition to the ripple voltage is thus only the series resistance of the tuned circuit, which is essentially the coil winding resistance. The filter, therefore, acts as a short circuit across the load for the ripple frequency to which it is tuned, while presenting almost infinite impedance to the DC output voltage. In contrast, the parallel-resonant filter (Fig. 29) presents a very high impedance (Q times the impedance of the coil) to the ripple frequency to which it is tuned, while at the same time presenting only the coil resistance to the flow of direct current. It effectively blocks the passage of the ripple current to the load. Small ripple currents that do get through are further by-passed to ground by shunt capacitors C' and C".
