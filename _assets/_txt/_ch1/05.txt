@@ -1,0 +1,13 @@
+Design Ratings of Thermionic Diodes
+
+The important design ratings that determine the performance of hot-cathode (thermionic) diode rectifiers and hence influence the selection of tubes for a specific type of service and circuit, are:
+
+(a) The maximum allowable peak plate current (the maximum current which may be allowed to flow at any time) which is determined by the maximum usable cathode emission over the life of the tube. The cathode must at all times maintain a full space charge, hence, the peak plate current is always less than the total emission of the cathode during the useful life of the tube.
+
+(b) The maximum allowable average plate current (the maximum value of average plate current which may be carried continuously without overheating), or dc output current. This can never exceed one-half of the peak plate current, since current flows through the rectifier tube only half the time, during positive ac half-cycles. The maximum allowable value of the average plate current depends on the permissible plate dissipation (heating of the plate) of the tube. Its value usually turns out to be considerably less than one-half of the peak plate current.
+
+(c) The maximum allowable inverse plate voltage (the largest Voltage which may occur at the negative peak of the cycle without breakdown). It is also the largest negative voltage that may be applied safely to this tube. Its value also determines the maximum positive plate voltage that may be applied to the tube, and thus to the dc output voltage. The exact dc output voltage obtained from the tube depends on the rectifier circuit (as we shall see later), but it is generally less than the allowable inverse plate voltage.
+
+(d) For high-vacuum diodes the voltage drop across the tube (the voltage across the tube during the conduction interval) is determined by the permissible plate current; for mercury-vapor diodes it is more or less constant, as explained before. The product of the tube voltage drop and the allowable plate current is the amount of plate dissipation that must be designed into the tube if it is to handle the rated current.* The tube voltage drop is also an important factor in determining the regulation of the dc output voltage, that is, the value of the dc output voltage for varying load currents. As we have seen, the low, constant tube drop of mercury-vapor tubes provides the advantage of wasting little voltage across the tube, and of keeping the regulation for varying load currents to a minimum change.
+
+Actual design ratings and other data useful for various representative types of high-vacuum and gas-filled diodes are listed in Chap. 5, Table I.

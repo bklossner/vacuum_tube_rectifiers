@@ -1,16 +1,4 @@
-Chapter 1
-
-PHYSICAL CHARACTERISTICS OF RECTIFIERS
-
-1. The Need for Rectification
-
-Most power sources supply alternating current (AC) because of the numerous advantages connected with its generation and transmission. Practically all electron tube circuits and many industrial processes, however, require DC supply voltages and currents, and thus the need arises to convert alternating current to direct current. A rectifier is capable of changing alternating current into pulsating direct current; to obtain smooth DC power a filter system must be added. A complete rectifier system usually also contains a voltage divider for providing direct currents at various desired potentials, and a voltage regulator to minimize the effect of load and supply voltage variations on the DC output voltages.
-
-2. Basic Principle of Rectification
-
-Rectifiers change AC into pulsating DC by eliminating the negative half-cycles or alternating the ac voltage. Only a series of sine wave pulsations of positive polarity remain. An ideal rectifier may be thought of as a switch that closes a load circuit whenever the polarity of the alternating voltage is positive, and opens the circuit whenever the alternating voltage is of negative polarity. A switch operating with such synchronism would have effectively zero resistance for that half of the time when the circuit is closed during positive half-cycles and infinite resistance for the other half of the time when the circuit is open during negative half-cycles. Practical rectifiers do not attain this goal, but come close to it. Some vacuum tube rectifiers may have almost infinite resistance during the nonconducting interval (back resistance), but the resistance during the conducting interval (forward resistance) is never zero or even constant. Regardless of their approach to the ideal, all rectifiers must provide a one-way path for electric current; that is, conduction must take place primarily in one direction only. This is called unilateral conduction, or a unidirectional characteristic.
-
-3. The Diode as Rectifier
+The Diode as Rectifier
 
 A diode is a device consisting of two elements or electrodes: one is an electron emitter (cathode), the other an electron collector (anode or plate). Since electrons in a diode can ﬂow only from emitter to collector, the diode provides unilateral conduction and hence, rectification. The voltage-current characteristics of an ideal diode and of three practical diodes are illustrated in Figs. 1 through 4.
 
@@ -45,43 +33,3 @@ When a voltage of opposite polarity (reverse bias) is applied to the crystal dio
 This is shown in Fig. 4, where for the purposes of clarity the magnitude of the reverse current has been greatly exaggerated. When the excessive negative voltage is removed, conditions return to normal.
 
 While the circuits of crystal diode rectifiers are similar to those of vacuum diodes, a considerable number of changes must be made in practice to take care of different voltage and current requirements.
-
-4. Triode Rectifiers
-
-Grid-controlled tubes, or triodes, are sometimes used as rectifiers. The use of the grid permits regulating the power delivered to the load by controlling the time during which the current flows during each cycle. The tubes used for this purpose are almost exclusively gas-filled types called thyratrons. Since this volume is primarily concerned with vacuum tubes, thyratron rectifiers will not be covered here.
-
-5. Design Ratings of Thermionic Diodes
-
-The important design ratings that determine the performance of hot-cathode (thermionic) diode rectifiers and hence influence the selection of tubes for a specific type of service and circuit, are:
-
-(a) The maximum allowable peak plate current (the maximum current which may be allowed to flow at any time) which is determined by the maximum usable cathode emission over the life of the tube. The cathode must at all times maintain a full space charge, hence, the peak plate current is always less than the total emission of the cathode during the useful life of the tube.
-
-(b) The maximum allowable average plate current (the maximum value of average plate current which may be carried continuously without overheating), or dc output current. This can never exceed one-half of the peak plate current, since current flows through the rectifier tube only half the time, during positive ac half-cycles. The maximum allowable value of the average plate current depends on the permissible plate dissipation (heating of the plate) of the tube. Its value usually turns out to be considerably less than one-half of the peak plate current.
-
-(c) The maximum allowable inverse plate voltage (the largest Voltage which may occur at the negative peak of the cycle without breakdown). It is also the largest negative voltage that may be applied safely to this tube. Its value also determines the maximum positive plate voltage that may be applied to the tube, and thus to the dc output voltage. The exact dc output voltage obtained from the tube depends on the rectifier circuit (as we shall see later), but it is generally less than the allowable inverse plate voltage.
-
-(d) For high-vacuum diodes the voltage drop across the tube (the voltage across the tube during the conduction interval) is determined by the permissible plate current; for mercury-vapor diodes it is more or less constant, as explained before. The product of the tube voltage drop and the allowable plate current is the amount of plate dissipation that must be designed into the tube if it is to handle the rated current.* The tube voltage drop is also an important factor in determining the regulation of the dc output voltage, that is, the value of the dc output voltage for varying load currents. As we have seen, the low, constant tube drop of mercury-vapor tubes provides the advantage of wasting little voltage across the tube, and of keeping the regulation for varying load currents to a minimum change.
-
-Actual design ratings and other data useful for various representative types of high-vacuum and gas-filled diodes are listed in Chap. 5, Table I.
-
-6. Diode Rectifier Circuits
-
-The type of circuit in which diode rectifier tubes are used determines the attainable dc output and voltages, the smoothness of the dc, the amount of filtering required, and other important factors. Rectifier circuits may be classified as either single-phase or polyphase, depending on whether the ac power has one or more phases.
-
-Single-phase circuits are used primarily for the relatively small plate-power requirements of various electronic devices; radio and television sets, public address systems. In contrast, polyphase rectifier circuits are used for high-power requirements demanding economical operation. The capabilities of power transformers and tubes are more fully utilized in polyphase circuits. They have the additional advantage of delivering a dc output that is smoother and requires less filtering than the dc of single-phase circuits.
-
-7. Review Questions
-
-(1) Explain the basic function of a rectifier and the operation of an ideal rectifier.
-
-(2) What is a diode? Distinguish between various types and describe their physical characteristics.
-
-(3) How does the Ib-Eb characteristic of a gas diode differ from that of a vacuum diode, and why? How do both differ from the characteristic of an ideal diode? What are the advantages of each?
-
-(4) What is meant by the breakdown of a crystal diode and how will the reverse current affect rectifier operation?
-
-(5) Define forward resistance and back resistance and state the approximate range of values for each type of diode. What is their significance for rectifier operation?
-
-(6) Define maximum allowable peak plate current, average plate current, peak inverse voltage and tube voltage drop; explain the significance of these tube design ratings.
-
-(7) Distinguish between single-phase and polyphase rectifiers and describe the major uses and advantages of each.
