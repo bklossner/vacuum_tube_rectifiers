@@ -1,0 +1,18 @@
+mounting the coils in the three-phase transformer. In the delta-wye
+circuit (Fig. 16) the rectified current flows through each
+secondary coil in one direction, which saturates the transformer
+core and effectively reduces the inductance of the winding, just
+as in the single-phase half-wave rectifier. This disadvantage is overcome
+in the delta-zig-zag circuit by supplying each core with two
+secondary windings operating in phase opposition to each other.
+As a consequence, each leg is made up of two sections, each operating
+in a different magnetic circuit. These are connected in
+successive legs of a zig-zag arrangement to give secondary voltages
+phased 120° apart. Each secondary phase (E.) then turns out to
+be the vector sum of two winding voltages that are effectively 60°
+out of phase with each other. It may be shown* that Es equals
+the square-root of 3 or 1.732 times the voltage developed across each coil winding.
+
+21. Three-Phase Half-Wave Double-Wye (Six-Phase) Rectifier
+What essentially amounts to six-phase operation is obtained in
+the circuit shown in Fig. 18 by connecting two three-phase half-

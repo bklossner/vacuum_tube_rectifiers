@@ -1,0 +1,5 @@
+Since the resonant frequency (f) of either tuned circuit is approximately 1/2π sqrt LC, the product of inductance and capacitance for a resonant filter must satisfy the relation
+
+In the parallel-resonant filter (Fig. 29), the minimum inductance of the choke coil is usually determined by the previously discussed considerations for a capacitor-input filter, so that the value of the capacitance (C) is also fixed.
+
+The disadvantage of resonant filters is that they can suppress only one of the several ripple frequency components present in the output of the rectifier. If they are correctly tuned to the fundamental ripple frequency, they will not effectively suppress the other ripple frequency components, and additional filters must be used. Also, the individual tuning of each resonant circuit is a bothersome procedure. For these reasons tuned filter circuits are

@@ -1,0 +1,14 @@
+PREFACE
+
+A large proportion of electronic equipment operates from an alternating current supply. Most of the circuits within such equipment require direct current and/or voltages for best results. An integral part of the design, therefore, often consists of a vacuum tube rectifier and its associated components. The function of the rectifier is to convert a portion of the alternating voltage input into the direct current sources required for the particular apparatus. When the requirements of the electronic equipment are critical, the rectifying system must be designed and protected against undesired fluctuations of voltage.
+
+The purpose of this book is to provide the fundamental concepts of vacuum tube rectifier theory. A minimum of mathematical treatment has been employed, but the analyses are sufficiently extensive to permit the interested technician, practicing engineer, or advanced student to develop a full comprehension of the important facets of such theory. Specific attention is given to the basic principles of rectification; rectifiers; design ratings; needs, limitations, uses and characteristics of many rectifiers and circuits; and, the theory and calculations pertinent to rectifier and filter design data.
+
+Educators agree that a thorough knowledge of fundamental theory is essential for the continued development of a sincere student. VACUUM TUBE RECTIFIERS content was selected with this philosophy as a guide -- it is the thorough foundation, for both theoretical and practical applications.
+
+Grateful acknowledgment is made to the staff of the New York Institute of Technology for its assistance in the preparation of the manuscript of this book.
+
+New York, N.Y.
+
+February 1958
+A. S.

@@ -1,0 +1,13 @@
+inductance for choke-input filters and the L-C product values for both choke-input and capacitor-input filters.
+
+Note that Table II gives L-C values for both 50-cycle and 60- cycle supply sources. The 50-cycle ac supplies are common in many countries. The horizontal axis at the bottom of the chart lists the rms ripple voltage (of both fundamental and harmonic components) as a percentage of the DC output voltage. The horizontal scale at the top of the chart gives the ripple voltage in db (decibels) with reference to the DC output voltage. Decibels are frequently used to express a relative voltage ratio and the db values may be found from the relation db = 20 Iog10 Eif E0 , where EifE 0 is the voltage ratio to be expressed in db.
+
+For example, the value of 10% ripple in the chart corresponds to -20 db, since for a voltage ratio EifE 0 of 0.1 (10%),
+
+Similarly, for a ripple of 0.5%, the voltage ratio E1/E0 is 0.005 or I /200, and hence
+
+The chart, therefore, shows a value of -46 db corresponding to a ripple of 0.5%. Negative db values are usually spoken of as being so many below the reference voltage. Thus a ripple of 0.5% is referred to as being 46 db below the DC output voltage.
+
+Choke-Input Design Procedure. To design a choke-input filter by means of the chart, assume a plausible minimum value for the input inductance. Then determine from the manufacturer's tube manuals or by calculation, the actual value of the DC output voltage into this input inductance for the particular circuit and desired operating values. A check with the minimum-inductance formula L = KE/If* will then reveal whether the assumed inductance value is adequate, or possibly even excessive. If the loadcurrent requirements of the circuit vary over a range, the minimum load current (or bleeder current) should be substituted for I in the minimum inductance formula. Finally, the L-C product for the desired ripple reduction and circuit is determined from the chart, and the value of the shunt capacitance is computed by dividing it into the L-C product. Depending on requirements, a different order may be followed in the procedure.
+
+*Note that E in this case is the DC output voltage, not fundamental component of ripple voltage as shown in the equation on page 46.

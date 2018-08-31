@@ -1,0 +1,21 @@
+6. Diode Rectifier Circuits
+
+The type of circuit in which diode rectifier tubes are used determines the attainable dc output and voltages, the smoothness of the dc, the amount of filtering required, and other important factors. Rectifier circuits may be classified as either single-phase or polyphase, depending on whether the ac power has one or more phases.
+
+Single-phase circuits are used primarily for the relatively small plate-power requirements of various electronic devices; radio and television sets, public address systems. In contrast, polyphase rectifier circuits are used for high-power requirements demanding economical operation. The capabilities of power transformers and tubes are more fully utilized in polyphase circuits. They have the additional advantage of delivering a dc output that is smoother and requires less filtering than the dc of single-phase circuits.
+
+7. Review Questions
+
+(1) Explain the basic function of a rectifier and the operation of an ideal rectifier.
+
+(2) What is a diode? Distinguish between various types and describe their physical characteristics.
+
+(3) How does the Ib-Eb characteristic of a gas diode differ from that of a vacuum diode, and why? How do both differ from the characteristic of an ideal diode? What are the advantages of each?
+
+(4) What is meant by the breakdown of a crystal diode and how will the reverse current affect rectifier operation?
+
+(5) Define forward resistance and back resistance and state the approximate range of values for each type of diode. What is their significance for rectifier operation?
+
+(6) Define maximum allowable peak plate current, average plate current, peak inverse voltage and tube voltage drop; explain the significance of these tube design ratings.
+
+(7) Distinguish between single-phase and polyphase rectifiers and describe the major uses and advantages of each.

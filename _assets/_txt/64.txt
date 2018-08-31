@@ -1,0 +1,45 @@
+ratings is explained in Chap. I. For full-wave types (two diodes
+in one envelope) the maximum plate currents listed apply to the
+plate of one diode only.
+
+36. Rectifier Circuit Design Data
+
+Table 1 summarizes the main characteristic and design factors
+of the various rectifier circuits discussed in Chaps. 2 and 3. The
+significance of these factors has been described in detail in Chaps.
+2 and 3, but it may be well to explain the derivation and use of
+the table, and in the process recapitulate the meaning of the
+various design factors.
+
+All numerical factors in Table 1 are ratios based on a DC output
+voltage of l volt, or a DC output of I amp. In the case of the
+secondary ac voltages and currents, the numbers express the ratio
+of the rms value of the voltage or current to the DC output voltage
+or current. The average current per tube expresses the fraction
+contributed by each tube to the total DC output (taken as I). The
+value of the peak current per tube expresses the ratio of the peak
+value of the output current waveform to its average or DC value,
+taken as I. This is the inverse of the average-to-peak current
+(or voltage) ratio, previously stated in Chaps. 2 and 3 for various
+circuits. For example, it was stated that the average current of
+single-phase, full-wave rectifier is 0.636 times the peak current.
+In Table I the inverse ratio (peak current to average current) is
+listed as 1.57, which evidently is 1/0.636. Note, however, that the
+peak-to-average ratios assume that nothing is done to change the
+output current waveform of the rectifier. In other words, the rectifier
+must be connected directly to a pure resistance load, so that
+the full ripple in the output waveform is present. If the rectifier
+is connected to a filter, the output waveform is changed by suppression
+of the ripple and the average current or voltage values
+begin to approach the peak values. The values listed in Table 1
+do not apply to filter operation. In the case of an "ideal" chokeinput
+filter (with infinite input inductance), for example, the
+current ripple is entirely suppressed and the average DC load
+current becomes equal to the peak current per plate. (The exception
+is the double-wye, three-phase circuit, where the peak currentper-
+tube must be held to one-half of the average DC current, as
+explained in Chap. 3).
+
+Table 1 also lists the rms ripple voltage as a percentage of the
+de output voltage. These values were obtained by taking the
+root-mean-square value of the sum of the fundamental and har

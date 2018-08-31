@@ -1,0 +1,11 @@
+Chapter 1
+
+PHYSICAL CHARACTERISTICS OF RECTIFIERS
+
+1. The Need for Rectification
+
+Most power sources supply alternating current (AC) because of the numerous advantages connected with its generation and transmission. Practically all electron tube circuits and many industrial processes, however, require DC supply voltages and currents, and thus the need arises to convert alternating current to direct current. A rectifier is capable of changing alternating current into pulsating direct current; to obtain smooth DC power a filter system must be added. A complete rectifier system usually also contains a voltage divider for providing direct currents at various desired potentials, and a voltage regulator to minimize the effect of load and supply voltage variations on the DC output voltages.
+
+2. Basic Principle of Rectification
+
+Rectifiers change AC into pulsating DC by eliminating the negative half-cycles or alternating the ac voltage. Only a series of sine wave pulsations of positive polarity remain. An ideal rectifier may be thought of as a switch that closes a load circuit whenever the polarity of the alternating voltage is positive, and opens the circuit whenever the alternating voltage is of negative polarity. A switch operating with such synchronism would have effectively zero resistance for that half of the time when the circuit is closed during positive half-cycles and infinite resistance for the other

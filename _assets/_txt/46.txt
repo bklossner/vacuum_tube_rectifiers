@@ -1,0 +1,5 @@
+(7) A broadcast station requires a DC voltage of 2000 volts at a load current of 10 amperes. For both the delta-star rectifier (Fig. 19) and the double-wye circuit (Fig. 18) compute the required rms voltage across each secondary winding of the transformer, the peak and average current per tube, the DC power delivered to the load and the ripple frequency. (Neglect the tube and transformer voltage drops.) Which circuit would you choose?
+
+(8) Draw the circuit of a three-phase full-wave delta-wye rectifier and compare its operation with that of a single-phase, full-wave bridge rectifier. Compute the same data as for the review question (7) and compare all three circuits. If you had three single-phase transformers of the proper ratings available, would you change your selection in question (7)?
+
+(9) Remembering the delta connection, draw the circuit of a three-phase full-wave delta-delta rectifier.

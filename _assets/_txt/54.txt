@@ -1,0 +1,13 @@
+current, assures good voltage regulation and eliminates the need for excessive input inductance values.
+
+In the next chapter we shall consider choke-input filter design in more detail and the minimum inductance values for various rectifier circuits (single- or three-phase) will be given.
+
+Swinging Choke. From the relation given for the minimum input inductance, it is evident that the required inductance may vary over a wide range, depending on the load-current fluctuations. Even with a bleeder present, the required inductance at the minimum (bleeder) current may be excessive compared to the value needed for effective hum suppression at normal load currents. A swinging choke is designed to overcome this disadvantage by varying its inductance according to the load. The inductance of a swinging choke is high at low load currents and drops off with increasing load currents. This is accomplished by making the air-gap of the choke coil very small. At small load currents, the incremental inductance of such a choke will be very high, while at large load currents it will be sufficient to give adequate filtering. (The incremental inductance is the inductance to the alternating ripple current superimposed upon the DC magnetization.)
+
+It is important to realize that the minimum inductance given by the previously stated relation is the incremental inductance, that is, the inductance to the ac ripple superimposed on the dc magnetizing current. As the DC magnetization decreases at low load currents, the incremental inductance of any choke increases. Even without a swinging choke, the relation for minimum inductance at low load currents will generally be satisfied by any well-designed choke coil.
+
+31. Resistance-Capacitance Filter
+
+When the load-current requirements are small and a moderate de voltage drop across the filter is permissible, the inductance of a capacitor-input filter may be replaced by a series resistance. The resulting resistance-capacitance (R-C) filter is not as effective as an inductive filter, since the series resistor offers as much impedance to DC as to the ripple voltage. Some ripple is always present. The advantage of the R-C filter is that a resistance is much less expensive than an inductance. An R-C filter with typical component values is shown in Fig. 25.
+
+Capacitance C1 in Fig. 25 is made sufficiently large to present a very low impedance to the ripple frequency, while at the same time offering practically infinite impedance to DC. The ripple

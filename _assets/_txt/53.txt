@@ -1,0 +1,11 @@
+Input Inductance Requirements. For normal choke-input filter operation there must be a continuous flow of current through the choke coil. The peak value of the ac ripple current through the choke must be less than the DC output current, or the current through the choke might fall at times to zero. This condition is approximately realized by choosing the value of the input inductance (L) so that the following relation is satisfied:
+
+For the practical case of a 60-cycle, single-phase full-wave rectifier, the fundamental ripple frequency is 120 cycles, the ripple voltage E1=0.667 E (where E is the DC output voltage) and hence the above relation becomes where E is the DC output voltage and I is the output current.
+
+Example: What should be the minimum value of the inductance in a choke-input filter if the output voltage from a full-wave 60-cycle rectifier filter system is 350 volts and the DC load current is 100 ma.?
+
+Solution: The minimum inductance
+
+Actually to assure good operation at low load currents, a larger value than the minimum inductance should be selected.
+
+The minimum inductance given by the above relation is that value below which the choke-input filter is no longer capable of functioning properly, but at which it acts like a capacitor-input system. Note that the minimum inductance depends inversely on the load current. If the load current fluctuates over a certain range, an inductance corresponding to the lowest load-current value must be chosen to obtain satisfactory operation. Here again, a fixed bleeder resistor, drawing about 10% of the full DC output
