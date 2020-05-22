@@ -4,3 +4,4 @@ _assets/_pdf
 .DS_Store
 .idea/
 _assets
+main.code-workspace
